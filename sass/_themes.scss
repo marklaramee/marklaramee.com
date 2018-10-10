@@ -1,0 +1,133 @@
+
+.container-fluid {
+  padding: 0;
+}
+
+.container--main-outer {
+  background: url(../images/tree_top.jpg) repeat-x top left $mark-light-gray;
+  border-top: 10px solid $mark-dark-gray;
+  padding-top: 80px;
+}
+
+.container--main {
+  padding: 20px 40px 40px 40px;
+
+  p {
+    margin: 0px;
+    padding: 0px 0px 14px 0px;
+  }
+
+  a, a:visited, a:active {
+    color: $mark-dark-green;
+    font-weight: bold;
+    text-decoration: none;
+
+    &.boldlink {
+      color: $mark-dark-gray;
+      font-family: 'Libre Franklin', sans-serif;
+      font-weight: bold;
+    }
+  }
+  a:hover {
+    color: $mark-blue;
+    text-decoration: underline;
+
+    &.boldlink {
+      color: $mark-dark-gray;
+    }
+  }
+
+  h2 a {
+    color: $mark-purple;
+    text-decoration: none;
+  }
+
+  h2 a:hover {
+    color: $mark-blue;
+    text-decoration: underline;
+  }
+
+  h2.website-title a {
+    color: $mark-purple;
+
+    &:hover {
+      color: $mark-blue;
+    }
+  }
+}
+
+
+
+.website-title {
+  padding-top: 20px;
+}
+
+.container--nav-outer {
+  height: 57px;
+}
+
+.container--websites {
+  padding-top: 20px;
+
+  .row {
+    padding-bottom: 40px;
+  }
+}
+
+.container--footer {
+  background: url(../images/city_bottom.jpg) repeat-x top left;
+  padding-top: 70px;
+}
+
+input[type=text]#input-example {
+  max-width: 440px;
+}
+
+
+#email_message {
+  height: 120px;
+}
+
+.container-fluid--contact {
+  input[type=submit] {
+    margin-top: 18px;
+  }
+  .row {
+    padding-bottom: 0;
+  }
+}
+
+.alert--bigtopspace {
+  margin-top: 40px;
+}
+
+.error--textarea {
+  margin-top: -6px;
+}
+
+@media screen and (min-width: $sm-min) {
+  .website-title {
+    padding-top: 0;
+  }
+} 
+
+@media (min-width: $min-desktop-width) {
+  .container--body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $max-inner-width;
+  }
+
+  .container--nav-outer {
+    background: url(../images/outer_nav_bg.gif) repeat-x;
+    border-bottom: 2px solid #6e6e6e;
+    height: auto;
+  }
+}
+
+@media (max-width: 379px) {
+  .g-recaptcha {
+    transform:scale(0.8);
+    transform-origin:0 0;
+  }
+}

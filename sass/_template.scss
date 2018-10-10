@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,700|Hind:400,500|Krub:400,700');
+
+body {
+  background: $mark-dark-gray;
+  color: $mark-dark-gray;
+  font-family: 'Krub', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h1 {
+  color: $mark-dark-blue;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0px 0px 8px 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+h2, h2 a {
+  color: $mark-purple;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px 0px 4px 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+h3 {
+  color: $mark-dark-blue;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px 0px 4px 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+h3, h4, h5, h6 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+a {
+  text-decoration :none;
+}
+
+pre {
+  color: $mark-dark-purple;
+  margin: 0;
+  padding: 8px 0 14px;
+}
+
+input[type=text], 
+textarea {
+  border: 2px solid $mark-dark-green;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.row {
+  padding-bottom: 20px;
+}

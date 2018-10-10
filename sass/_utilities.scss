@@ -1,0 +1,89 @@
+
+
+.no-error-message {
+  margin-bottom: 18px;
+}
+
+.codetext {
+  color: $mark-dark-purple;
+}
+
+.demolink {
+  font-weight: bold;
+}
+
+.fading-label {
+  position: relative;
+
+  input {
+    height: 45px;
+    padding-left: 12px;
+  }
+  textarea {
+    padding-left: 12px;  
+  }
+
+  input:focus {
+    padding-top: 12px;
+  }
+  textarea:focus {
+    padding-top: 16px; 
+  }
+  input:focus + label,
+  textarea:focus + label {
+    opacity: 1;
+    top: 3px;
+    transition: 0.25s;
+    visibility: visible;
+  }
+
+  input, textarea {
+    &::-webkit-input-placeholder {
+      color: #777;
+    }
+    &:-moz-placeholder { 
+        color: #777;
+    }
+    &:-ms-input-placeholder { 
+      color: #777;
+    }
+
+    &:focus::-webkit-input-placeholder {
+        color: #fff;
+    }
+    &:focus:-moz-placeholder { 
+        color: #fff;
+    }
+    &:focus::-moz-placeholder { 
+        color: #fff;
+    }
+    &:focus:-ms-input-placeholder { 
+        color: #fff;
+    }
+  }
+
+  label {
+      color: #9ca7ab;
+      font-size: 12px;
+      font-weight: 400; 
+      left: 7px;
+      margin-left: 7px;
+      opacity: 0;
+      position: absolute;
+      top: 7px;
+      visibility: hidden;
+  }
+}
+
+
+.error_field,
+input[type=text].error_field,
+textarea.error_field {
+  border: 2px solid red;
+
+  &::-webkit-input-placeholder {
+    color: red;
+  }
+}
+
+/*  https://stackoverflow.com/questions/17181849/placeholder-mixin-scss-css */

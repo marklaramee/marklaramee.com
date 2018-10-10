@@ -1,0 +1,67 @@
+
+
+#meifier {
+  display: none;
+}
+
+#footer {
+  color: #ccc;
+  font-size: 16px;
+  margin: 0px auto;
+  padding: 10px 0 20px 0;
+  text-align: center;
+
+  p {
+    margin: 0;
+    padding: 10px 0 0 0;
+  }
+
+  a {
+    color: #ccc;
+    padding: 0 1vw;
+    text-decoration: none;
+  }
+}
+
+.mButton {
+  background: url(/images/blue_brand_gradient.png);
+  background-size: cover;
+  border: 2px solid $mark-dark-green;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Hind', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  height: 34px;
+  min-width: 240px;
+  outline: none;
+  padding-top: 4px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+.error_message {
+  color: red;
+  height: 18px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: $min-desktop-width) {
+  #meifier {
+    background: $mark-dark-gray url(/images/logo-main.png) $site-gutter center;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    display: block;
+    height: 100px;
+    width: 100%;
+  }
+
+  #footer {
+    a {
+      padding: 0 20px;
+    }
+  }
+}
