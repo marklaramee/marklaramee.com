@@ -15,7 +15,7 @@
 <p> 
     I know my way around a Linux server and have some experience with IIS. I set this site up on AWS as a Linux EC2 instance with PHP, SFTP and SES. 
     The front end uses Bootstrap with Sass. 
-    Please see my <a href="/websites.php">websites page</a> for a description of some other sites I have worked on. 
+    Please see my <a href="/websites.php">projects page</a> for a description of some other sites I have worked on. 
 </p>
 <p>
     <a href="/assets/MarkLaramee_Resume_20180926.pdf" download>Download</a> or 

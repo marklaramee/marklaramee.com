@@ -23,7 +23,7 @@
           Online
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="/websites.php">Websites</a>
+          <a class="dropdown-item" href="/websites.php">Projects</a>
           <a class="dropdown-item" href="https://www.linkedin.com/in/marklaramee/" target="_blank">Linked In</a>
           <!-- div class="dropdown-divider"></div -->
           <a class="dropdown-item" href="https://stackoverflow.com/users/641854/mark" target="_blank">Stack Exchange</a>
